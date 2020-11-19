@@ -1,0 +1,68 @@
+body{
+  background-color: gainsboro;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+a{
+  text-decoration: inherit;
+}
+#menu,#extras{
+  background-color: navajowhite;
+  width: 300px;
+  margin: 0 auto;
+  font-family: 50% "Trebuchet MS", Arial, sans-serif;
+  text-align: left;
+}
+#restaurante,#direccion{
+  background-color: rgb(130, 228, 126);
+  color: black;
+}
+h2,h5{
+  color: black;
+}
+h4{
+  margin: 1em auto 0.3em;
+  color: #008c00;
+  font-size: 200%;
+  text-align: center;
+}
+
+tr{
+  width: 100%;
+  overflow: auto;
+  margin: 0 0 1em;
+}
+td,td.precio{
+  font-size: 130%;
+  font-weight: bold;
+}
+td{
+  padding-right: 3px;
+  color: #f70000;
+  text-align: center;
+}
+td.precio{
+  padding-left: 3px;
+  color: black;
+  text-align: right;
+}
+td.ingredientes{
+  float: left;
+  width: 100%;
+  padding: 3px 0;
+  font: italic 100% Georgia, Times, sans-serif;
+  text-align: center;
+  color: rgb(0, 38, 255);
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+div.marco{
+  border-radius: 10px;
+  border-color: lawngreen;
+  border-style: solid;
+}
